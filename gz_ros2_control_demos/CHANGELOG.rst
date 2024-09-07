@@ -2,39 +2,6 @@
 Changelog for package ign_ros2_control_demos
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.0.1 (2024-08-26)
-------------------
-* Use spawner with `--params-file` argument instead of cli verbs (`#399 <https://github.com/ros-controls/gz_ros2_control/issues/399>`_)
-  Co-authored-by: Alejandro Hernández Cordero <ahcorde@gmail.com>
-* Contributors: Christoph Fröhlich
-
-2.0.0 (2024-07-09)
-------------------
-* fixed robot name (`#358 <https://github.com/ros-controls/gz_ros2_control/issues/358>`_)
-* Contributors: huzaifa
-
-1.3.1 (2024-07-02)
-------------------
-* Ackermann steering example (`#349 <https://github.com/ros-controls/gz_ros2_control/issues/349>`_)
-* Rename variable in launch file (`#327 <https://github.com/ros-controls/gz_ros2_control/issues/327>`_)
-  Co-authored-by: Alejandro Hernández Cordero <ahcorde@gmail.com>
-* added color definitions (`#310 <https://github.com/ros-controls/gz_ros2_control/issues/310>`_)
-* Remove stamped twist parameter (`#308 <https://github.com/ros-controls/gz_ros2_control/issues/308>`_)
-* Contributors: Christoph Fröhlich, Reza Kermani, huzaifa
-
-1.3.0 (2024-05-14)
-------------------
-* Update pendulum-example  (`#301 <https://github.com/ros-controls/gz_ros2_control/issues/301>`_)
-  * Change initial pose of pendulum
-  * Make position and effort version of pendulum equal
-* Use Gazebo ROS vendor packages (`#277 <https://github.com/ros-controls/gz_ros2_control/issues/277>`_)
-* Add cart-pole demo (`#289 <https://github.com/ros-controls/gz_ros2_control/issues/289>`_)
-* Rewrite mimic joints (`#276 <https://github.com/ros-controls/gz_ros2_control/issues/276>`_)
-  Co-authored-by: Alejandro Hernández Cordero <ahcorde@gmail.com>
-* Fix flake8 (`#269 <https://github.com/ros-controls/gz_ros2_control/issues/269>`_)
-* Cleanup launch files and add example for .xml launch file. (`#266 <https://github.com/ros-controls/gz_ros2_control/issues/266>`_)
-* Contributors: Addisu Z. Taddese, Christoph Fröhlich, Dr. Denis
-
 1.2.2 (2024-03-21)
 ------------------
 * Add dep (`#256 <https://github.com/ros-controls/gz_ros2_control/issues/256>`_)
